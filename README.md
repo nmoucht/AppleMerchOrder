@@ -16,4 +16,6 @@ finish getPersonFromExcell
 
 merge createJson and getProductInfo
 
+investigate auto email creation
+
 investigate venmo tracking
