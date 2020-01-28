@@ -11,6 +11,9 @@ getProductInfo.py-get whether size and color are necessary for each item
 getPersonFromExcell- get person object {"balance":owed, "items":[(size,color,amount)]}
 
 TODOS:
+
 finish getPersonFromExcell
+
 merge createJson and getProductInfo
+
 investigate venmo tracking
