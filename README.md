@@ -1,5 +1,7 @@
 # AppleMerchOrder
 
+Repo for parsing excell spreadsheet of orders, and hopefully balance tracking as well.
+
 createDoc.py- parse website and create excell sheet of all products
 
 createJson.py- create price json for each item- TODO: merge createJson and getProductInfo
