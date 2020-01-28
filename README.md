@@ -12,10 +12,10 @@ getPersonFromExcell- get person object {"balance":owed, "items":[(amount,color,s
 
 TODOS:
 
-finish getPersonFromExcell
-
 merge createJson and getProductInfo
 
-investigate auto email creation
+add extra error handling in getPersonFromExcell
+
+investigate auto email creation- https://www.freecodecamp.org/news/send-emails-using-code-4fcea9df63f/
 
 investigate venmo tracking
