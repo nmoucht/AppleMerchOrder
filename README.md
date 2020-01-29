@@ -8,7 +8,7 @@ createJson.py- create price json for each item- TODO: merge createJson and getPr
 
 getProductInfo.py-get whether size and color are necessary for each item
 
-getPersonFromExcell- get person object {"balance":owed, "items":[(amount,color,size)]}
+getPersonFromExcell- get person object {"balance":owed, "items":[(amount,color,size)], "email":emailAddress}
 
 TODOS:
 
