@@ -13,6 +13,7 @@ xl = pd.ExcelFile("export_dataframe.xlsx")
 df = xl.parse("Sheet1")
 
 names = list(df['Name'])
+emails = list(df['Email'])
 del df['Name']
 del df['Email']
 
@@ -66,6 +67,7 @@ for person in df:
                 error
         count+=1
     perPersonDict["balance"] = total
+    perPersonDict["email"] = emails[personCount]
 
     if error==0:
         personDict[names[personCount]] = perPersonDict
